@@ -1,0 +1,9 @@
+.div-reminder{
+    height: 5vh;
+    width: 100%;
+    text-align: left;
+
+}
+.reminder{
+    border-left: 5px solid green;
+}

@@ -1,0 +1,9 @@
+<div class="row">
+    
+    <div class="container-header">
+        <app-add-task (addNewTask)="addNewTask($event)"></app-add-task>
+    </div>
+    <div class="container-header">
+        <app-tasks-item *ngFor="let task of tasks" [task]="task" (onDeleteTask)="onDeleteTask(task)" (onChangeReminder)="changeReminder(task)"></app-tasks-item>
+    </div>
+</div>
